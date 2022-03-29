@@ -1,0 +1,66 @@
+/* root settings */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height: 100vh;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+li,
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+ul[class] {
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  min-width: 32rem;
+  max-width: 100%;
+  padding: 0;
+}
+
+.--wrap {
+  min-width: 32rem;
+  max-width: 114rem;
+  padding: 1rem;
+}
+
+.--flex {
+  display: flex;
+}
+
+.--grid {
+  display: grid;
+}
